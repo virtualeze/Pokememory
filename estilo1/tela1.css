@@ -1,0 +1,101 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
+     
+    }
+
+    #container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+ 
+    #logo {
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 650px;
+      height: 450px;
+      text-align: center;
+      line-height: 80px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+  
+    #icones {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .icone {
+      width: 55px;
+      height: 40px;
+      border-radius: 10px;
+    }
+
+
+    #link {
+      font-size: 22px;
+      font-family: "Pixelify Sans", sans-serif;
+      top: 50px;
+      color:  #395FAA;
+    
+    }
+
+ 
+  #botao-jogar {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 50px;
+  z-index: 9999;         
+  pointer-events: auto;   
+  border-radius: 15px;
+}
+
+#botao-jogar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255); 
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+  
+    #cartas {
+      position: absolute;
+      bottom: -250px;
+      left: 52%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: -20px;
+    }
+
+    .carta {
+      width: 700px;
+      height: 550px;
+      margin-left: -20px;
+      z-index: 1;
+    }
+
+    .carta:nth-child(2) {
+      z-index: 2;
+    }
+
+    .carta:nth-child(3) {
+      z-index: 3;
+    }
