@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+#container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#icones {
+  position: absolute;
+  top: 30px;
+  left: 30px; 
+}
+
+.icone {
+  width: 100px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+#titulo {
+  font-size: 100px; 
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #FFCA02;
+  font-family:"Pixelify Sans", sans-serif;
+  text-shadow:
+    -2px -2px 0 #395FAA,
+    2px -2px 0 #395FAA,
+    -2px  2px 0 #395FAA, 
+    2px  2px 0 #395FAA;
+}
+
+#card {
+  width: 70%;
+  height: 50%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 40px;
+  color: #395FAA;
+  text-align: justify;
+  font-size: 25px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+ #pikachu{
+      position: absolute;
+      bottom: -150px;
+      left: 90%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: -20px;
+    }
+
+.pikachu {
+      width: 500px;
+      height: 500px;
+      z-index: 1;
+    }
